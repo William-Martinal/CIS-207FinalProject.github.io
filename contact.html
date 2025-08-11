@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Contact_Page</title>
+  <link rel="stylesheet" type="text/css" href="Index.css">
+</head>
+
+<body>
+
+<div id="container"> <!-- This div holds everything. -->
+  <div id="nav">  <!-- This div holds the navigation bar. -->
+<ul>
+    <li><a href="index.html" target="index.html" title="Welcome to My Page"
+    >Home</a></li>
+    <li><a href="resume.html" target="resume.html" title="William H. Martin - Resume">
+        Resume</a></li>
+    <li><a href="coursework.html" target="coursework.html" title="Course Work">
+        Course Work</a></li>
+    <li><a href="hobbies.html" target="hobbies.html" title="Hobbies">
+        Hobbies</a></li>
+
+    <li><a href="contact.html" target="contact.html" title="Contact">
+        Contact</a></li>
+</ul>
+
+  </div>
+     <div id="main">
+      <form
+  action="https://formspree.io/f/mzzvbzqg"
+  method="POST"
+>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for"email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea> <br>
+
+    <button type="submit">Send</button>
+
+ </form>
+     </div>
+
+</div>
+
+</body>
+
+</html>

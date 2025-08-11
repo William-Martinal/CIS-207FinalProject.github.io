@@ -1,0 +1,193 @@
+body       {
+      background:#7D8CC4;
+      background-size: cover;
+      background-attachment: fixed;
+      font-size:14pt;
+      margin:0;
+
+
+ }
+ #container     {
+     background:#14213D;
+     width:80%;
+     height:1500px;
+     margin-left:auto;
+     margin-right:auto;
+     padding-top:15px;
+     padding-bottom:15px;
+     padding-left:15px;
+     padding-right:20px;
+
+ }
+
+
+h1     {
+color:#E0DDCF;
+ }
+
+a       {
+    text-decoration:none;
+    padding:10px;
+    background-color:#14213D;
+    display:block;
+    color:#E0DDCF;
+}
+#special        {
+    background-color:blue;
+    color:white;
+}
+.sample     {
+   font-family:impact, fantasy;
+   color:red;
+   font-size:18pt;
+}
+label{
+    color:#E0DDCF;
+}
+
+form{
+    margin: 0 auto;
+    width:20%;
+}
+
+.prep       {
+    font-weight:bold;
+}
+ul      {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+li      {
+   /* display:inline;*/
+    float:left;
+    /*border-right: solid 3px red;*/
+}
+li a        {
+    display:block;
+    text-align:center;
+    padding: 14px 16px;
+    border-left: medium ridge #7D8CC4;
+    border-right: medium ridge #7D8CC4;
+
+
+}
+
+
+
+#align      {
+    text-align:center;
+    font-size:xx-large;
+    font-family: "DM Serif Text", serif;
+    border-top: solid 3px navy;
+    border-bottom: solid 3px navy;
+    background-color:pink;
+}
+#home     {
+    width:400px;
+    height:533px;
+    border-radius:40px;
+    /*transform: rotate(270deg);*/
+    border: medium inset #7D8CC4;
+    margin-right: 5px;
+}
+
+
+th      {
+    font-size:10pt;
+    font-weight:bold;
+    text-align:left;
+    color:#E0DDCF;
+    border: medium groove #7D8CC4;
+}
+td      {
+    font-size:10pt;
+    color:#E0DDCF;
+    border: medium groove #7D8CC4;
+}
+
+#nav
+{
+    display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #14213D;
+      padding: 10px 0;
+      width: 100%;
+      border: medium ridge #7D8CC4
+
+}
+
+#main {
+    height:70%;
+    width:100%;
+    margin-top: 5%;
+
+
+
+
+}
+
+h3
+{
+    text-align:center;
+    color:#E0DDCF;
+    font-weight:bold;
+}
+
+p
+{
+    text-indent: hanging;
+    color:#E0DDCF;
+}
+
+
+#cooking
+{
+    width:45%;
+    float:left;
+
+}
+
+
+#Modeling
+{
+    width:45%;
+    float:right;
+}
+
+#flatbread
+{
+    width:259px;
+    height:200px;
+    float:right;
+    border: medium inset #7D8CC4
+
+
+}
+
+#tank
+{
+    width:184px;
+    height:200px;
+    float:left;
+    border: medium inset #7D8CC4
+}
+
+#Resume p h3
+{
+    width:100%;
+    text-align: center;
+    color:#14213D;
+
+
+
+}
+
+#header
+{
+    font-weight:bold;
+    color:#E0DDCF;
+}
+
